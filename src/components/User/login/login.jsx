@@ -45,10 +45,11 @@ function Login() {
                 localStorage.setItem('userEmail', response.data.userData.email);
                 navigate('/home')
             } else {
-                alert(response.data.message);
+                console.log(48,response)
+                alert(response.data);
             }
         } catch (error) {
-            console.log(error);
+            console.log("error",error);
             alert(error.message);
         }
     }
