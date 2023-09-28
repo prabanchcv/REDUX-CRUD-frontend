@@ -35,21 +35,7 @@ function Home() {
 
   return (
     <div>
-       {!data.email &&  <div className="bg-gray-100 h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-6xl font-semibold text-gray-800">404</h1>
-        <p className="text-2xl text-gray-600">Page Not Found</p>
-        <p className="text-gray-500 mt-4">Sorry, the page you are looking for might be in another universe.</p>
-        <button onClick={() => {
-                                navigate("/");
-                            }}
-                                type="button"
-                                className="bg-info"
-                            >
-                               Go back to login page
-                            </button>
-      </div>
-    </div>}
+      
     <div className="wrapper">
       
             
